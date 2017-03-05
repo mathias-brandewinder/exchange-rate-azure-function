@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "name": "timer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "*/15 * * * * *"
+    },
+    {
+      "type": "queue",
+      "name": "rateMessage",
+      "queueName": "latest-rate",
+      "connection": "sampleexchangerate_STORAGE",
+      "direction": "out"
+    }
+  ],
+  "disabled": true
+}

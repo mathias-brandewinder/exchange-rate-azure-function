@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "newRateMessage",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "latest-rate",
+      "connection": "sampleexchangerate_STORAGE"
+    }
+  ],
+  "disabled": false
+}

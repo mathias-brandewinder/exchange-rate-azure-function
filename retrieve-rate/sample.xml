@@ -1,0 +1,8 @@
+<query xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:count="1" yahoo:created="2017-02-11T19:56:24Z" yahoo:lang="en-US">
+<results>
+<rate id="GBPUSD">
+<Name>GBP/USD</Name>
+<Rate>1.2486</Rate>
+</rate>
+</results>
+</query>
